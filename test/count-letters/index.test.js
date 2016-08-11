@@ -15,3 +15,10 @@ test('[Count letters] should have 4 `i`', function(t) {
   t.equal(actual, expected);
   t.end();
 });
+
+test('[Count letters] should have 4 `i`', function(t) {
+  var actual = countLetters('hello this is my friend Emily', 'I');
+  var expected = 4;
+  t.equal(actual, expected);
+  t.end();
+});
