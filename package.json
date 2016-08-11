@@ -1,0 +1,22 @@
+{
+  "name": "learningbydoing",
+  "version": "1.0.0",
+  "description": "learning by doing",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.test.js | tap-spec",
+    "watch": "nodemon -q -x 'npm test'"
+  },
+  "keywords": [
+    "learning",
+    "doing"
+  ],
+  "author": "Alvaro Pinot",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.10.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
